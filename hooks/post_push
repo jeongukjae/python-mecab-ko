@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker tag $IMAGE_NAME $ANOTHER_DOCKER_REPO:$DOCKER_TAG
+docker push $ANOTHER_DOCKER_REPO:$DOCKER_TAG

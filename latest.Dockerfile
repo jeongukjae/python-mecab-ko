@@ -1,5 +1,4 @@
-ARG PYTHON_VERSION
-FROM circleci/python:${PYTHON_VERSION}
+FROM circleci/python:latest
 
 # Install KoNLPy dependencies and MeCab
 # http://konlpy.org/en/latest/install/
