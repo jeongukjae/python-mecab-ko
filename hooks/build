@@ -1,0 +1,4 @@
+#!/bin/bash
+for tag in `cat versions.txt` ; do
+    docker build --build-arg PYTHON_VERSION=$tag -f Dockerfile -t $DOCKER_REPO:$tag .
+done
