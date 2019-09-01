@@ -1,4 +1,4 @@
-FROM python:latest
+FROM circleci/python:3.5
 
 RUN apt-get update && \
   apt-get install --no-install-recommends -y openjdk-11-jdk-headless && \
