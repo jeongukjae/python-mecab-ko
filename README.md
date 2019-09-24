@@ -16,6 +16,9 @@ Tags:
 * `3.7-circleci`
 * `3.6-circleci`
 * `3.5-circleci`
+* `3.7-slim`
+* `3.6-slim`
+* `3.5-slim`
 * `latest`
 * `3.7`
 * `3.6`
