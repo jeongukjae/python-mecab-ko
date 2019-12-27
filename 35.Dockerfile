@@ -16,3 +16,4 @@ RUN apt-get update && \
   sh -c 'echo "dicdir=/usr/local/lib/mecab/dic/mecab-ko-dic" > /usr/local/etc/mecabrc' && \
   cd / && \
   rm -rf /var/lib/apt/lists/* /tmp/*
+

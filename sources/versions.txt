@@ -1,0 +1,14 @@
+python:3.5                35
+python:3.5-slim           35.slim
+circleci/python:3.5       35.circleci
+circleci/python:3.5-node  35.circleci.node
+python:3.6                36
+python:3.6-slim           36.slim
+circleci/python:3.6       36.circleci
+circleci/python:3.6-node  36.circleci.node
+python:3.7                37
+python:3.7-slim           37.slim
+circleci/python:3.7       37.circleci
+circleci/python:3.7-node  37.circleci.node
+python:latest             latest
+circleci/python:latest    latest.circleci

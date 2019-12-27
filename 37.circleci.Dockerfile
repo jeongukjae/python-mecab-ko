@@ -19,5 +19,5 @@ RUN apt-get update && \
   cd / && \
   rm -rf /var/lib/apt/lists/* /tmp/*
 
-
 USER circleci
+

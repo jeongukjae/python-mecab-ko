@@ -1,4 +1,4 @@
-FROM circleci/python:3.6
+FROM circleci/python:3.5-node
 
 USER root
 
